@@ -14,7 +14,6 @@
 import axios from "axios";
 import SearchBar from "./components/SearchBar";
 import VideoList from "./components/VideoList";
-import VideoPlay from "./components/VideoPlay";
 import VideoDetail from "./components/VideoDetail";
 const API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY;
 const API_URL = "https://www.googleapis.com/youtube/v3/search";
